@@ -1,0 +1,17 @@
+region                 = "us-east-1"
+ec2_image_id           = "ami-0230bd60aa48260c6"
+ec2_instance_type      =  "t2.micro"
+ec2_key_pair           = "my-key-pair" 
+vpc_id                 = "vpc-058021bf4cd8a032e"
+vpc_cidr               = "10.0.0.0/24"
+public_subnet_cidr     = "10.0.0.0/25"
+private_subnet_cidr    = "10.0.0.128/25"
+public_subnet_id       = "subnet-07f648de527330090"
+public_route_table_id  = "rtb-0d862007fda6f119e" 
+private_subnet_id      = "subnet-07f648de527330090"
+private_route_table_id = "rtb-0775a4c83a284ae4c"
+sec_grp_name           = "vpc-security-group"
+description            = "allow ssh traffic to ec2 instance"
+allocation_id          = "eipalloc-0170afdbad6167897"
+
+
